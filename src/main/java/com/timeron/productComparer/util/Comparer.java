@@ -5,10 +5,11 @@ import java.util.List;
 
 import org.apache.log4j.Logger;
 
-import com.timeron.MultiObserver.dao.ProposedProductKayDAO;
-import com.timeron.MultiObserver.dao.entity.ObservedObject;
-import com.timeron.MultiObserver.dao.entity.ObservedSite;
-import com.timeron.MultiObserver.dao.entity.ProposedProductKay;
+import com.timeron.NexusDatabaseLibrary.Entity.ObservedObject;
+import com.timeron.NexusDatabaseLibrary.Entity.ObservedSite;
+import com.timeron.NexusDatabaseLibrary.Entity.ProposedProductKay;
+import com.timeron.NexusDatabaseLibrary.dao.ProposedProductKayDAO;
+
 
 public class Comparer {
 	

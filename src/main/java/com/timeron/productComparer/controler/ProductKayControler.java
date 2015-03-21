@@ -7,13 +7,12 @@ import org.apache.log4j.Logger;
 
 import com.gargoylesoftware.htmlunit.html.DomNode;
 import com.gargoylesoftware.htmlunit.html.HtmlPage;
-import com.timeron.MultiObserver.dao.ObservedObjectDAO;
-import com.timeron.MultiObserver.dao.ObservedSiteDAO;
-import com.timeron.MultiObserver.dao.entity.ObservedObject;
-import com.timeron.MultiObserver.dao.entity.ObservedSite;
-import com.timeron.MultiObserver.dao.entity.ProposedProductKay;
-import com.timeron.MultiObserver.dao.entity.Site;
 import com.timeron.MultiObserver.downloader.Downloader;
+import com.timeron.NexusDatabaseLibrary.Entity.ObservedObject;
+import com.timeron.NexusDatabaseLibrary.Entity.ObservedSite;
+import com.timeron.NexusDatabaseLibrary.Entity.Site;
+import com.timeron.NexusDatabaseLibrary.dao.ObservedObjectDAO;
+import com.timeron.NexusDatabaseLibrary.dao.ObservedSiteDAO;
 
 public class ProductKayControler {
 

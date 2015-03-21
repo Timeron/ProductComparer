@@ -4,10 +4,11 @@ import java.util.List;
 
 import org.apache.log4j.Logger;
 
-import com.timeron.MultiObserver.dao.ObservedObjectDAO;
-import com.timeron.MultiObserver.dao.ObservedSiteDAO;
-import com.timeron.MultiObserver.dao.entity.ObservedSite;
-import com.timeron.MultiObserver.dao.entity.Site;
+import com.timeron.NexusDatabaseLibrary.Entity.ObservedObject;
+import com.timeron.NexusDatabaseLibrary.Entity.ObservedSite;
+import com.timeron.NexusDatabaseLibrary.Entity.Site;
+import com.timeron.NexusDatabaseLibrary.dao.ObservedObjectDAO;
+import com.timeron.NexusDatabaseLibrary.dao.ObservedSiteDAO;
 import com.timeron.productComparer.util.Comparer;
 
 public class ProductComparerControler {
